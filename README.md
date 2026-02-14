@@ -25,11 +25,11 @@ An AI-powered blog generator that scrapes website content and automatically crea
 ## ▶️ How It Works
 1. User enters a URL
 2. The program:
-  - Scrapes all <p> tag content
-  - Sends scraped text to the LLM
-  - Generates:
-     - A blog post (200 words)
-     - A short title
+   1. Scrapes all <p> tag content
+   2. Sends scraped text to the LLM
+   3. Generates:
+     1. A blog post (200 words)
+     2. A short title
 3. Appends the result to autoblog.html
 4. Repeats until exit() is entered
 
